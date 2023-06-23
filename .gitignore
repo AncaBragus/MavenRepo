@@ -6,4 +6,5 @@
 /bin
 /output
 target/
+test-output/
 test.json
