@@ -1,12 +1,8 @@
 package curs13;
 
-public class GItCommands {
+public class GitFilteringLogCommands {
 	
-	
-
-
 	/**
-	 
 	 git log
 	 git log --oneline
 	 git log --oneline --all
