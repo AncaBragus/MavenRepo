@@ -29,10 +29,10 @@ public class TestPriority {
 	
 	@Test
 	public void four() {
-	System.out.println("Fourh");
+	System.out.println("Fourth");
 	}
 	@Test
 	public void five() {
-	System.out.println("Five");
+	System.out.println("Fifth");
 	}
 }
