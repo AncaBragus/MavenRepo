@@ -6,7 +6,7 @@ import org.testng.asserts.SoftAssert;
 
 public class TestNgAssertionTypes{
 	
-	@Test
+	//@Test
 	public void softAssertExample(){
 		//nu se face stop
 		System.out.println("Soft Assert incepe aici");
@@ -21,10 +21,9 @@ public class TestNgAssertionTypes{
 	public void hardAssertExample() {
 		// se face exit din metoda; se face stop
 		System.out.println("Hard Assert incepe aici");
-		HardAssert sa = new HardAssert();
-		sa.equals("123", "abc");
+		assertEquals("123", "abc");
 		System.out.println("Hard Assert cntinua aici");
-		sa.assertTrue(false);
+		assertTrue(false);
 		System.out.println("Hard Assert se opreste aici");
 	}
 	 
