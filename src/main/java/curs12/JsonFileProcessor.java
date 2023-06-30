@@ -34,7 +34,8 @@ public class JsonFileProcessor {
 	obj.put("lista obiecte" , list);
 	
 	
-	try(FileWriter file = new FileWriter("test.json")){
+	try{
+		FileWriter file = new FileWriter("test.json");
 		file.write(obj.toJSONString());
 		}catch (IOException e) {
 		
