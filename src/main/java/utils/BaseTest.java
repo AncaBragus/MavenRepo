@@ -24,7 +24,7 @@ public class BaseTest {
 	
 	@AfterClass
 	public void teardown() throws InterruptedException {
-		Thread.sleep(4000);//bad practice
+		Thread.sleep(3000);//bad practice
 		
 		driver.quit();//inchide tot browserul cu toate taburile
 	}

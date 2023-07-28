@@ -13,7 +13,7 @@ public class IsEnabledExample extends BaseTest{
 	@Test
 	public void isEnabled() {
 			
-		driver.findElement(By.cssSelector("menu_user_login")).click();
+		driver.findElement(By.cssSelector("li[class='menu_user_login']")).click();
 		WebElement userName = driver.findElement(By.cssSelector("input[id=log]"));
 		System.out.println(userName.isEnabled());
 		
