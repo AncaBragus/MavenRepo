@@ -15,7 +15,7 @@ import utils.BaseTest;
  */
 public class ContactMessage extends BaseTest {
 	
-	@Test(priority=1)
+	@Test
 	public void sendMesage() {
 		try {
 			driver.findElement(By.cssSelector("a[href*='contacts']")).click();
